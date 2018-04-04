@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.csproj" />
+    <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.csproj" />
+    <ProjectReference Include="..\ClassLibrary4\ClassLibrary4.csproj" />
+  </ItemGroup>
+
 </Project>
