@@ -12,4 +12,8 @@
     <ProjectReference Include="..\ClassLibrary4\ClassLibrary4.csproj" />
   </ItemGroup>
 
+  <Target Name="RecurrentCall" AfterTargets="Build">
+    <Message Importance="High" Text="Starting recurrent build" />
+    <Exec Command="dotnet msbuild ../AFewProjectsForNodeReuse.sln /t:NonExistentTarget" />
+  </Target>
 </Project>
