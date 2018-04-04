@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="WasteTime" BeforeTargets="CoreCompile">
+    <Exec Command="sleep 6" />
+  </Target>
+</Project>
